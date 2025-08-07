@@ -1,0 +1,34 @@
+#Aula 01.00 - Notas
+
+#Operações
+
+#soma = +
+#subtracao = -
+#multiplicacao = *
+#divisao = /
+#divisao inteira = //
+#resto da divisao = %
+#potencia = **
+#diferente !=
+#comparação ==
+
+#Variáveis
+
+#variavel é algo que guarda um valor temporário
+#variavel 'int' guarda o numero inteiro
+#variavel 'float' guarda o numero decimal
+#variavel 'string' guarda uma palavra entre ''
+#variavel 'booliana' guarda valor True ou False, 1 ou 0.
+#'print' informa do programa ao terminal
+#'input' informa do terminal ao programa. Exclusivo para textos
+
+#Git
+
+#git init
+#git config user.name "Seu nome"
+
+#git add .
+#git comit
+#git status
+#git commit -m "adicionar arquivos de aula"
+#git push

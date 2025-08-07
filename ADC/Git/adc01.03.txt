@@ -1,0 +1,17 @@
+#BRANCH
+
+Uma branch (ou ramo) é uma linha independente de desenvolvimento dentro de um repositório Git.
+
+Ela permite que você trabalhe em novas funcionalidades, correções de bugs ou outras alterações sem interferir na linha principal 
+do projeto (geralmente chamada de main ou master).
+
+As branches são úteis para:
+
+Trabalhar em tarefas paralelas ao mesmo tempo.
+Separar versões estáveis do código de versões experimentais.
+Facilitar a colaboração em equipe, permitindo que cada desenvolvedor tenha sua própria linha de trabalho.
+
+Quando o trabalho em uma branch é concluído e aprovado, ele pode ser mesclado (merge) de volta à branch principal, 
+incorporando as alterações ao projeto.
+
+Existe um site que é um game, que ajuda a entender melhor o funcionamento das branches de forma gameficada

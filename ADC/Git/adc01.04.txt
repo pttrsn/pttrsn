@@ -1,0 +1,12 @@
+#MERGE
+
+O merge (mesclagem) é o processo de integrar as mudanças feitas em uma branch (ramo) de volta para outra, geralmente 
+para a branch principal (como main ou master). Quando você faz um merge, o Git compara as alterações feitas em duas branches e as combina.  
+Se as alterações não conflitarem, o merge é feito automaticamente. Caso contrário, o Git solicita que você resolva os conflitos manualmente.
+
+Como funciona o Merge?
+
+Se você tiver uma branch com novas funcionalidades, pode fazer um merge dessa branch para a branch principal.
+O Git examina as diferenças entre as duas branches e aplica as alterações de uma para a outra.
+Se as alterações em ambas as branches não se sobrepuseram, o merge ocorre automaticamente. Se houver conflitos, o Git pedirá para você decidir como resolvê-los.
+O merge é uma parte fundamental no fluxo de trabalho colaborativo, pois permite que todos integrem seu trabalho de forma organizada e controlada.

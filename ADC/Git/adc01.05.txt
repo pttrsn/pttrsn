@@ -1,0 +1,27 @@
+#PULL E PUSH
+
+Eles permitem que você envie ou receba alterações entre o seu repositório local e o remoto.
+
+O comando GIT PULL é usado para atualizar o repositório local com as alterações feitas no repositório remoto. 
+Ele puxa as alterações (commits) mais recentes do repositório remoto e as incorpora ao seu repositório local.
+
+    O que faz?
+
+O Git faz um "fetch" (baixa as mudanças) e, em seguida, tenta fazer um "merge" (mescla) dessas mudanças com a sua branch atual.
+
+    Quando usar?
+
+Sempre que você quiser obter as mudanças feitas por outros desenvolvedores ou as alterações feitas diretamente no repositório remoto, 
+garantindo que seu repositório local esteja sincronizado.
+
+O comando GIT PUSH é usado para enviar as alterações do seu repositório local para o repositório remoto. Depois de fazer commits 
+no seu repositório local, você usa o push para compartilhar essas alterações com outros desenvolvedores e atualizar o repositório remoto.
+
+O que faz?
+
+Envia os commits do seu repositório local para o repositório remoto, atualizando a branch remota com as suas mudanças.
+
+Quando usar?
+
+Sempre que você concluir uma funcionalidade, correção ou outra alteração importante no seu repositório local e desejar 
+que essas mudanças sejam refletidas no repositório remoto, tornando-as acessíveis a outros desenvolvedores.

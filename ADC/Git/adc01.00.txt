@@ -1,0 +1,62 @@
+#Atividade de Casa 01.00 - Git
+
+
+
+BRANCH
+
+Uma branch (ou ramo) é uma linha independente de desenvolvimento dentro de um repositório Git.
+
+Ela permite que você trabalhe em novas funcionalidades, correções de bugs ou outras alterações sem interferir na linha principal 
+do projeto (geralmente chamada de main ou master).
+
+As branches são úteis para:
+
+Trabalhar em tarefas paralelas ao mesmo tempo.
+Separar versões estáveis do código de versões experimentais.
+Facilitar a colaboração em equipe, permitindo que cada desenvolvedor tenha sua própria linha de trabalho.
+
+Quando o trabalho em uma branch é concluído e aprovado, ele pode ser mesclado (merge) de volta à branch principal, 
+incorporando as alterações ao projeto.
+
+Existe um site que é um game, que ajuda a entender melhor o funcionamento das branches de forma gameficada
+
+MERGE
+
+O merge (mesclagem) é o processo de integrar as mudanças feitas em uma branch (ramo) de volta para outra, geralmente 
+para a branch principal (como main ou master). Quando você faz um merge, o Git compara as alterações feitas em duas branches e as combina.  
+Se as alterações não conflitarem, o merge é feito automaticamente. Caso contrário, o Git solicita que você resolva os conflitos manualmente.
+
+Como funciona o Merge?
+
+Se você tiver uma branch com novas funcionalidades, pode fazer um merge dessa branch para a branch principal.
+O Git examina as diferenças entre as duas branches e aplica as alterações de uma para a outra.
+Se as alterações em ambas as branches não se sobrepuseram, o merge ocorre automaticamente. Se houver conflitos, o Git pedirá para você decidir como resolvê-los.
+O merge é uma parte fundamental no fluxo de trabalho colaborativo, pois permite que todos integrem seu trabalho de forma organizada e controlada.
+
+PULL E PUSH
+
+Eles permitem que você envie ou receba alterações entre o seu repositório local e o remoto.
+
+O comando GIT PULL é usado para atualizar o repositório local com as alterações feitas no repositório remoto. 
+Ele puxa as alterações (commits) mais recentes do repositório remoto e as incorpora ao seu repositório local.
+
+    O que faz?
+
+O Git faz um "fetch" (baixa as mudanças) e, em seguida, tenta fazer um "merge" (mescla) dessas mudanças com a sua branch atual.
+
+    Quando usar?
+
+Sempre que você quiser obter as mudanças feitas por outros desenvolvedores ou as alterações feitas diretamente no repositório remoto, 
+garantindo que seu repositório local esteja sincronizado.
+
+O comando GIT PUSH é usado para enviar as alterações do seu repositório local para o repositório remoto. Depois de fazer commits 
+no seu repositório local, você usa o push para compartilhar essas alterações com outros desenvolvedores e atualizar o repositório remoto.
+
+O que faz?
+
+Envia os commits do seu repositório local para o repositório remoto, atualizando a branch remota com as suas mudanças.
+
+Quando usar?
+
+Sempre que você concluir uma funcionalidade, correção ou outra alteração importante no seu repositório local e desejar 
+que essas mudanças sejam refletidas no repositório remoto, tornando-as acessíveis a outros desenvolvedores.

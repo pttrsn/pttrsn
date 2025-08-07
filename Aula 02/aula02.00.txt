@@ -1,0 +1,12 @@
+#Aula 02.00 - Notas
+
+tentativa = 0
+while tentativa <= 3:
+    senha = input('Digite a senha: ')
+    if senha == 'python123':
+        print('Acesso permitido')
+        break
+    else:
+        print('Senha incorreta')
+    tentativa += 1
+

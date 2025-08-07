@@ -1,0 +1,17 @@
+#REPOSITÓRIOS
+
+Um repositório é uma pasta que guarda os arquivos de um projeto e o histórico de suas alterações.
+
+Tipos de Repositórios
+
+    Repositório Local
+
+Fica armazenado no seu computador.
+É criado quando você usa o comando git init.
+Permite salvar alterações e criar um histórico do projeto localmente.
+
+    Repositório Remoto
+
+Fica armazenado em uma plataforma na nuvem, como GitHub ou GitLab.
+Permite que outros desenvolvedores colaborem no mesmo projeto.
+Conectado ao repositório local para sincronizar alterações (com git push e git pull).

@@ -1,0 +1,16 @@
+#COMMIT
+
+Um commit é como tirar uma "foto" do estado atual do seu projeto no Git. Ele salva todas as alterações
+feitas nos arquivos e cria um ponto no histórico do repositório.
+
+    O que o commit faz?
+
+Registra alterações específicas no código ou nos arquivos.
+Inclui uma mensagem descritiva para explicar o que foi alterado.
+Permite rastrear o histórico do projeto, facilitando entender mudanças e reverter alterações se necessário.
+
+    Características de um Commit
+
+Atômico: Cada commit deve representar uma única mudança lógica, como "corrigir um bug" ou "adicionar uma nova funcionalidade".
+Imutável: Depois de feito, o commit não pode ser alterado diretamente (mas há formas avançadas de reescrevê-lo, como o git rebase).
+Identificável: Cada commit tem um identificador único (hash) para ser rastreado no histórico.
